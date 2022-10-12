@@ -1,14 +1,24 @@
-from array import array
+
+
+
+from time import process_time_ns
 
 
 array=[]
 
 while True:
     try:
-        array.append(input())
 
-        for i in range(len(array)):
-            print(array[i])
+        for elemento in range(input()):
+            array.append(elemento)
+
+        
+
+
+       
+        
+
+        print(array)
 
 
 
